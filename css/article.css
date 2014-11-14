@@ -1,0 +1,196 @@
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather|Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script|Julius+Sans+One&subset=latin,latin-ext);
+/*********COMPONENTS****************/
+body{
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	line-height: 23px;
+	-webkit-font-smoothing:antialiased;
+	background-color: #1c1d21;
+	/*background-color: #ccc;*/
+
+}
+
+h2{
+	margin: 50px 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+p{
+	/*color: #000;*/
+	color: #fff;
+	padding-top: 30px;
+	font-family: sans-serif;
+	line-height: 25px;
+}
+
+.block{
+	display: block;
+}
+
+img{
+	vertical-align: middle;
+	margin: 0 auto;
+	/*border: 5px white solid;*/
+}
+
+span{
+	color: #3eb8ea;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+p{
+	max-width: 960px;
+}*/
+/*************************/
+
+.bg-dark{
+	/*background-color: #333;*/
+}
+
+.bg-light{
+	background-color: #fff  ;
+}
+
+/*******ARTICLE******/
+.article p{
+	color: #222;
+	font-size: 14px;
+}
+.article h2{
+	font-size: 60px;
+}
+
+.blogfooter{
+	
+	/*background-color: #003b5a;*/
+}
+
+.blogfooter p {
+	color: #222;
+}
+
+.blogfooter img{
+	padding: 26px;
+}
+
+.blogfooter .sn li{ 
+	border: 1px solid #fff;
+	background-color: #CAB;
+	border-radius: 50%;
+}
+/*******ARTICLE******/
+
+
+.bgimg{
+	background-image: url('../imgs/chandler/header.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+}
+
+.headertext{
+	font-size: 70px;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 30%;
+
+}
+
+.caption-content a{
+	font-family: 'Kristi', cursive;
+	/*font-size: 120px;*/
+	text-transform: lowercase;
+	text-shadow: 2px 2px 9px #222;
+}
+
+.pagetitle{
+	padding-top: 100px;
+} 
+
+.artsub{
+	height: 700px;
+	padding-top: 100px;
+}
+
+.nopadding{
+	padding:0px;
+}
+
+.blogheaderimg{
+	display: block;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.section-heading{
+	text-align: center;
+}
+
+.second{
+	margin-top: 10px;
+}
+
+blockquote{
+	margin-top: 50px;
+}
+
+.rowimg{
+	/*background-color: #555;*/
+	padding: 10px;
+	/*max-width: 960px;*/
+	max-width: 1010px;
+	margin: 0 auto;
+}
+
+.fourset img{
+	margin-bottom: 15px;
+}
+
+ul li{
+	list-style: none;
+}
+
+.imglrg{
+	height: 640px;
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.imgmed{
+	height: 305px;
+	width: 487px;
+	margin: 0 auto;
+}
+
+.imgsm{
+	height: 288px;
+	width: 317px;
+	margin: 0 auto;
+}
+
+.centered{
+	margin: 0 auto;
+}
+
+.pad20{
+	padding: 0 20px 0 20px;
+}
+/*****MEDIA OBJECT*****/
+.media{
+	width: 860px;
+	margin: 0 auto;
+}
+/********AGENT SECTION******/
+.nvr-people .imgcontainer img{
+	border-radius: 50%;
+}

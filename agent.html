@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="United Brokers Group" />
+    <link rel="icon" type="image/png" href="images/ubgfavicon.png">
+
+
+    <!-- Stylesheets
+    ============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- External JavaScripts -->
+    <link rel="stylesheet" href="css/colors.css" type="text/css" />
+
+
+    <!-- ============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+	<title>Agents - UBG Corp</title>
+
+</head>
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="full-header">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+  <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                    
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/ubglogo.png" ><img src="images/ubglogo.png" alt="UBG Logo"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/ubglogo2x.jpg"><img src="images/ubglogo.jpg" alt="UBG Logo"></a>
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="primary-menu">
+
+                        <ul>
+                            <li class=""><a href="index.html"><div>Home</div></a>
+                                
+                            </li>
+                              <li><a href="about.html"><div>About UBG</div></a>
+                              </li>
+
+                              <li><a class="current" href="agent.html"><div>Agents</div></a>
+                                    
+                            </li>
+                            <li class=""><a href="search.html"><div>Home Search</div></a>
+                            </li>
+                              <li><a href="contact.html"><div>Contact</div></a>
+                                
+                            </li>
+                        </ul>
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+
+
+        <!-- Page Title
+        ============================================= -->
+      <!--   <section id="page-title" class="page-title-mini page-title-dark">
+
+            <div class="container clearfix">
+                <h1>Agents</h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Agents</li>
+                </ol>
+            </div>
+
+        </section> --><!-- #page-title end -->
+
+        <!-- Content
+        ============================================= -->
+          <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Postcontent
+                    ============================================= -->
+                    <div class="postcontent nobottommargin">
+
+                       <h3>I am looking for an agent specializing in...</h3>
+
+                        <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+
+                        <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+                            <div class="form-process"></div>
+
+                            <div class="col_one_fourth">
+                                <label for="template-contactform-name">Residential Sales</label>
+                                <input type="checkbox" id="template-contactform-ressales" name="template-contactform-name" value="" class="sm-form-control required" />
+                            </div>
+
+                            <div class="col_one_fourth">
+                                <label for="template-contactform-rentals">Rentals</label>
+                                <input type="checkbox" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+                            </div>
+
+                            <div class="col_one_fourth">
+                                <label for="template-contactform-newdev">New Developments</label>
+                                <input type="checkbox" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+                            </div>
+
+                            <div class="col_one_fourth col_last">
+                                <label for="template-contactform-newdev">Commercial</label>
+                                <input type="checkbox" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div class="col_full">
+                                <label for="template-contactform-subject">Agent first name or last name</label>
+                                <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="sm-form-control" />
+                            </div>
+
+                            <div class="col_half">
+                                <label for="template-contactform-service">Languages</label>
+                                <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+                                    <option value="">-- Select One --</option>
+                                    <option value="English">English</option>
+                                    <option value="Spanish">Spanish</option>
+                                    <option value="French">French</option>
+                                    <option value="Dutch">Dutch</option>
+                                    <option value="German">German</option>
+                                    <option value="Cantonese">Cantonese</option>
+                                    <option value="Japanese">Japanese</option>
+                                    <option value="CRE">American Sign Language</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+
+                             <div class="col_half col_last">
+                                <label for="template-contactform-service">Designations</label>
+                                <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+                                    <option value="">-- Select One --</option>
+                                    <option value="ABR ">ABR</option>
+                                    <option value="ALC">ALC</option>
+                                    <option value="CCIM">CCIM</option>
+                                    <option value="CIPS">CIPS</option>
+                                    <option value="CPM">CPM</option>
+                                    <option value="CRB">CRB</option>
+                                    <option value="CRS">CRS</option>
+                                    <option value="CRE">CRE</option>
+                                    <option value="GAA">GAA</option>
+                                    <option value="GREEN">GREEN</option>
+                                    <option value="GRI">GRI</option>
+                                    <option value="PMN">PMN</option>
+                                    <option value="RCE">RCE</option>
+                                    <option value="RAA">RAA</option>
+                                    <option value="SRS">SRS</option>
+                                    <option value="SIOR">SIOR</option>
+                                    <option value="SRES">SRES</option>
+                                </select>
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div class="col_full">
+                                <label for="template-contactform-message">Message <small>*</small></label>
+                                <textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+                            </div>
+
+                            <div class="col_full hidden">
+                                <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+                            </div>
+
+                            <div class="col_full">
+                                <button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Find Agents</button>
+                            </div>
+
+                        </form>
+
+                        <script type="text/javascript">
+
+                            $("#template-contactform").validate({
+                                submitHandler: function(form) {
+                                    $('.form-process').fadeIn();
+                                    $(form).ajaxSubmit({
+                                        target: '#contact-form-result',
+                                        success: function() {
+                                            $('.form-process').fadeOut();
+                                            $('#template-contactform').find('.sm-form-control').val('');
+                                            $('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
+                                            SEMICOLON.widget.notifications($('#contact-form-result'));
+                                        }
+                                    });
+                                }
+                            });
+
+                        </script>
+
+                    </div><!-- .postcontent end -->
+
+                    <!-- Sidebar
+                    ============================================= -->
+                    <div class="sidebar col_last nobottommargin">
+
+                        <address>
+                            <strong>Headquarters:</strong><br>
+                            106 S. Kyrene Rd Suite 2<br>
+                            Chandler, AZ 85226<br>
+                        </address>
+                        <abbr title="Phone Number"><strong>Phone:</strong></abbr> (480) 539-4775<br>
+                        <abbr title="Email Address"><strong>Email:</strong></abbr> info@ubgrealestate.com
+
+                        <div class="widget noborder notoppadding">
+
+                            <div class="fslider testimonial twitter-scroll" data-animation="slide" data-arrows="false">
+                                <div class="flexslider">
+                                    <div class="slider-wrap">
+                                        <div class="slide">
+                                            <div class="testi-image">
+                                                <a href="#"><i class="icon-twitter2"></i></a>
+                                            </div>
+                                            <div class="testi-content">
+                                                <p>Agent XYZ Helped me so much <a href="#" target="_blank">http://t.co/zpH1khNemV</a></p>
+                                                <div class="testi-meta">
+                                                    <span><a href="#">32 minutes ago</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="testi-image">
+                                                <a href="#"><i class="icon-twitter2"></i></a>
+                                            </div>
+                                            <div class="testi-content">
+                                                <p>@<a href="http://twitter.com/ubgrealestate" target="_blank">ubgrealestate</a> Glad to help in any way we can :D</p>
+                                                <div class="testi-meta">
+                                                    <span>4 hours ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="testi-image">
+                                                <a href="#"><i class="icon-twitter2"></i></a>
+                                            </div>
+                                            <div class="testi-content">
+                                                <p>Sales meeting starts in an hour!</p>
+                                                <div class="testi-meta">
+                                                    <span>5 days ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="widget noborder notoppadding">
+
+                            <a href="http://www.facebook.com/unitedbrokersgroup" class="social-icon si-small si-dark si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+
+                            <a href="http://www.twitter.com/ubgrealestate" class="social-icon si-small si-dark si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+
+
+                        </div>
+
+                    </div><!-- .sidebar end -->
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
+
+
+                <div class="container clearfix">
+
+                    <div class="clear"></div>
+
+                    <div class="fancy-title title-border">
+                        <h3>Agent List</h3>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <a href="agent-name.html"><img src="images/about/traceyc.jpg" alt="Agent Name"></a>
+                                </div>
+                                <div class="team-desc">
+                                   <a href="agent-name.html"><div class="team-title"><h4>Tracey</h4><span>UBG Agent</span></div></a> 
+                                    <div class="team-content">
+                                        <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-gplus">
+                                        <i class="icon-gplus"></i>
+                                        <i class="icon-gplus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in the field compassion, inspire breakthroughs planned giving.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-forrst">
+                                        <i class="icon-forrst"></i>
+                                        <i class="icon-forrst"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-skype">
+                                        <i class="icon-skype"></i>
+                                        <i class="icon-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-flickr">
+                                        <i class="icon-flickr"></i>
+                                        <i class="icon-flickr"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                     <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-gplus">
+                                        <i class="icon-gplus"></i>
+                                        <i class="icon-gplus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in the field compassion, inspire breakthroughs planned giving.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-forrst">
+                                        <i class="icon-forrst"></i>
+                                        <i class="icon-forrst"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-skype">
+                                        <i class="icon-skype"></i>
+                                        <i class="icon-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-flickr">
+                                        <i class="icon-flickr"></i>
+                                        <i class="icon-flickr"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                  
+                <div class="row">
+                     <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-gplus">
+                                        <i class="icon-gplus"></i>
+                                        <i class="icon-gplus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in the field compassion, inspire breakthroughs planned giving.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-forrst">
+                                        <i class="icon-forrst"></i>
+                                        <i class="icon-forrst"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-skype">
+                                        <i class="icon-skype"></i>
+                                        <i class="icon-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-flickr">
+                                        <i class="icon-flickr"></i>
+                                        <i class="icon-flickr"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                <div class="row">
+
+                     <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-gplus">
+                                        <i class="icon-gplus"></i>
+                                        <i class="icon-gplus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-md-6 bottommargin">
+
+                            <div class="team team-list clearfix">
+                                <div class="team-image">
+                                    <img src="images/about/lauriem.jpg" alt="Agent Name">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Agent Name</h4><span>UBG Agent</span></div>
+                                    <div class="team-content">
+                                        <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in the field compassion, inspire breakthroughs planned giving.</p>
+                                    </div>
+                                    <a href="#" class="social-icon si-rounded si-small si-forrst">
+                                        <i class="icon-forrst"></i>
+                                        <i class="icon-forrst"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-skype">
+                                        <i class="icon-skype"></i>
+                                        <i class="icon-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-rounded si-small si-flickr">
+                                        <i class="icon-flickr"></i>
+                                        <i class="icon-flickr"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                    <script type="text/javascript">
+
+                        jQuery(document).ready(function($) {
+
+                            var ocTeam = $("#oc-team");
+
+                            ocTeam.owlCarousel({
+                                responsive:{
+                                    0:{ items:1 },
+                                    600:{ items:2 },
+                                    1000:{ items:3 }
+                                },
+                                margin: 30,
+                                nav: true,
+                                navText : ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+                                dots:false
+                            });
+
+                        });
+
+                    </script>
+
+                    <div class="clear"></div>
+
+
+
+                    <script type="text/javascript">
+
+                        jQuery(document).ready(function($) {
+
+                            var ocTeam = $("#oc-team-list");
+
+                            ocTeam.owlCarousel({
+                                responsive:{
+                                    0:{ items:1 },
+                                    600:{ items:1 },
+                                    1000:{ items:2 }
+                                },
+                                margin: 30,
+                                nav: false,
+                                dots:true
+                            });
+
+                        });
+
+                    </script>
+
+                </div>
+
+            </div>
+
+
+        </section><!-- #content end -->
+
+        <!-- Footer
+        ============================================= -->
+        <footer id="footer" class="dark">
+
+            <!-- Copyrights
+            ============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_half">
+                        <img src="images/realtorfair.png" alt="" class="footer-logo">
+
+                        Copyrights &copy; 2014 All Rights Reserved by United Brokers Group Inc.
+                    </div>
+
+                    <div class="col_half col_last tright">
+                        <!-- <div class="copyrights-menu copyright-links fright clearfix">
+                            <a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+                        </div> -->
+                        <div class="fright clearfix">
+                            <a href="http://www.facebook.com/unitedbrokersgroup" class="social-icon si-small si-borderless nobottommargin si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+
+                            <a href="http://www.twitter.com/ubgrealestate" class="social-icon si-small si-borderless nobottommargin si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                             <a href="mailto:questions@ubgrealestate.com?Subject=Hello from ubgrealestate.com" class="social-icon si-small nobottommargin">
+                                <i class="icon-email3"></i>
+                                <i class="icon-email3"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+
+        </footer><!-- #footer end -->
+
+    </div><!-- #wrapper end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-37305301-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
